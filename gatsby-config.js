@@ -53,13 +53,13 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `gatsby-starter-default`,
-                short_name: `starter`,
+                name: `niiapa-github-io`,
+                short_name: `niiapa-ghpages`,
                 start_url: `/`,
                 background_color: `#141414`,
                 theme_color: `#141414`,
                 display: `minimal-ui`,
-                icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+                icon: `src/images/avatar.JPG`, // This path is relative to the root of the site.
             },
         },
         `gatsby-plugin-sass`
