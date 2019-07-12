@@ -133,21 +133,26 @@ main {
 			margin-right: 0;
 		}
 	}
-}
 
-.project,
-.blog-post {
-  margin-bottom: 15px;
+  .item {
+    margin-bottom: 15px;
 
-  &:hover {
-    border-radius: 4px;
-    padding: 10px;
-    border: 2px $grey dashed;
+    &:hover {
+      border-radius: 4px;
+      padding: 10px;
+      border: 2px $grey dashed;
+    }
   }
 }
 
+.blog-post {
+    border-radius: 4px;
+    padding: 10px;
+    border: 2px $grey dashed;
+}
+
 .blog-post-content {
-	margin: 20px 0;
+	margin-top: 20px;
 
 	p {
 		margin-bottom: 10px;
@@ -157,7 +162,7 @@ main {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-        padding: 15px;
+        padding-top: 15px;
 	}
 }
 

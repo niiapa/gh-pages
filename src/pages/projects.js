@@ -31,7 +31,7 @@ const Projects = () => {
             <div className='project-list'>
             {
                 list.map((project, index) => (
-                    <a key={index} className='project' href={project.url} target='_blank'  rel='noopener noreferrer'>
+                    <a key={index} className='item' href={project.url} target='_blank'  rel='noopener noreferrer'>
                         <h3>{project.name}</h3>
                         
                         <p>
