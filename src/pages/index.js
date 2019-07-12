@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 
 const Index = () => (
     <Layout>
-        <SEO title=""/>
+        <SEO title="Home"/>
         
         <div className="intro-box">
             <div className='avatar'>
