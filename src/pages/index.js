@@ -1,21 +1,37 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import Avatar from '../components/avatar';
+import BlogPostList from '../components/blogPostList';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+const Index = () => (
+    <Layout>
+        <SEO title=""/>
+        
+        <div className="intro-box">
+            <div className='avatar'>
+                <Avatar/>
+            </div>
+            
+            Hello...
+            
+            <p>
+                I'm Nii Apa. A software engineer based out of Accra, Ghana and London, UK.<br />
+                I will be posting my adventures, not only into code, on here...
+            </p>
+            
+            Enjoy!
+        </div>
+        
+        <div>
+            <nav>
+                <ul>
+                    <li className='active-link'>Blog</li>
+                </ul>
+            </nav>
+            <BlogPostList/>
+        </div>
+    </Layout>
+);
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
-
-export default IndexPage
+export default Index;
