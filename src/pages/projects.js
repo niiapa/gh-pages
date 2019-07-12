@@ -13,6 +13,14 @@ const Projects = () => {
                 'firebase',
                 'semantic-ui'
             ]
+        },
+        {
+            name: 'Off The Top',
+            url: 'https://www.youtube.com/watch?v=yFquihunvD8&list=PLghl8oTc1E6JLwCU-jW205gfxNroL3dDN',
+            description: 'A Ghanaian Youtube trivia show based around a select cast with a cocktail of personalities created by my friend, Joseph Nti.',
+            tech: [
+                'youtube'
+            ]
         }
     ];
     
@@ -20,6 +28,7 @@ const Projects = () => {
         <Layout>
             <SEO title="Projects"/>
             
+            <div className='project-list'>
             {
                 list.map((project, index) => (
                     <a key={index} className='project' href={project.url} target='_blank'  rel='noopener noreferrer'>
@@ -37,6 +46,7 @@ const Projects = () => {
                     </a>
                 ))
             }
+            </div>
         </Layout>
     );
 };

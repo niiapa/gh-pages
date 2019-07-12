@@ -35,8 +35,8 @@ const BlogPostList = () => {
                     const post = edge.node.frontmatter;
                     
                     return (
-                        <Link to={post.path}>
-                            <p key={index}>
+                        <Link key={index} to={post.path} className='blog-post'>
+                            <p>
                                 <h3>
                                     {post.title}
                                 </h3>
