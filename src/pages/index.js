@@ -16,7 +16,7 @@ const Index = () => (
             Hello...
             
             <p>
-                I'm Nii Apa. A software engineer based out of Accra, Ghana and London, UK.<br />
+                I'm Nii Apa. A software engineer based out of Accra, Ghana, and London, UK.<br />
                 I will be posting my adventures, not only into code, on here...
             </p>
             
