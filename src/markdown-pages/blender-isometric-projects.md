@@ -1,6 +1,6 @@
 ---
 path: "/blog/blender-isometric-projects"
-date: "2019-08-13"
+date: "2019-08-14"
 title: "Isometric 3D Projects with Blender"
 tags: blender, 3D, animation, low-poly
 ---
