@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: `Nii Apa`,
-        description: `A mini-site about me`,
+        description: `A me nii website`,
         author: `Nii Apa Abbey`,
         twitterHandle: '@niiapa',
         socials: [
@@ -47,7 +47,26 @@ module.exports = {
                 path: `${__dirname}/src/markdown-pages`,
             },
         },
-        `gatsby-transformer-remark`,
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    `gatsby-remark-copy-linked-files`,
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            // It's important to specify the maxWidth (in pixels) of
+                            // the content container as this plugin uses this as the
+                            // base for generating different widths of each image.
+                            maxWidth: 700,
+                            quality: 100,
+                            linkImagesToOriginal: true,
+                            backgroundColor: `#141414`
+                        }
+                    }
+                ],
+            },
+        },
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
         {
