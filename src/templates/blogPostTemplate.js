@@ -12,7 +12,11 @@ const BlogPostTemplate = ({ data }) => {
             
             <div className="blog-post">
                 <h1>{frontmatter.title}</h1>
-                <time dateTime={frontmatter.date}>{frontmatter.formattedDate}</time>
+                <div className='meta'>
+                    <time dateTime={frontmatter.date}>
+                        {frontmatter.formattedDate}
+                    </time>
+                </div>
                 
                 <div className='blog-post-content' dangerouslySetInnerHTML={{ __html: html }} />
             </div>

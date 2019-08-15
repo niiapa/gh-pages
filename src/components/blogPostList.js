@@ -45,11 +45,11 @@ const BlogPostList = () => {
                                     {edge.node.excerpt}
                                 </p>
                 
-                                <small>
+                                <div className='meta'>
                                     <time dateTime={post.date}>
                                         {post.formattedDate}
                                     </time>
-                                </small>
+                                </div>
                             </p>
                         </Link>
                     )

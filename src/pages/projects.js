@@ -40,7 +40,7 @@ const Projects = () => {
                         
                         {
                             project.tech.map((tech) => (
-                                <small key={tech}>{tech}</small>
+                                <div key={tech} className='meta'>{tech}</div>
                             ))
                         }
                     </a>
