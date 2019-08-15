@@ -5,6 +5,11 @@ $black: #141414;
 $lightBlack: #1b1b1b;
 $grey: #bfbfbf;
 $pageWidth: 700px;
+$navMargin: 20px;
+
+$fontSmall: 0.75rem;
+$fontRegular: 1rem;
+$fontBig: 1.75rem;
 
 * {
 	margin: 0;
@@ -56,7 +61,7 @@ footer {
 	margin: 20px 0;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 1.65rem;
+	font-size: $fontBig;
 
 	li {
 		display: inline;
@@ -70,7 +75,7 @@ footer {
 }
 
 footer {
-	font-size: 1rem;
+	font-size: $fontRegular;
 
 	ul {
 		display: flex;
@@ -128,28 +133,31 @@ main {
 	display: flex;
 	flex-direction: column;
 
-	small {
-		font-weight: 100;
-		margin-right: 10px;
-
-		&:last-of-type {
-			margin-right: 0;
-		}
-	}
-
-	.item {
-		margin-bottom: 15px;
-
-		&:hover {
-			border-radius: 4px;
-			padding: 10px;
-			border: 2px $grey dashed;
-		}
-	}
-
 	a:link,
 	a:visited {
 		color: white;
+	}
+}
+
+.meta {
+	display: inline;
+	font-weight: 500;
+	font-size: $fontSmall;
+	margin-right: 10px;
+
+	&:last-of-type {
+		margin-right: 0;
+	}
+}
+
+.item {
+	font-weight: lighter;
+	margin-bottom: 18px;
+
+	&:hover {
+		border-radius: 4px;
+		padding: 10px;
+		border: 2px $grey dashed;
 	}
 }
 
@@ -174,9 +182,11 @@ main {
 	}
 }
 
+
 @media all and (max-width: 400px) {
 	body {
 		max-width: 100%;
+		padding: 10px;
 	}
 
 	.avatar {
