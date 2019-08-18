@@ -36,7 +36,7 @@ const BlogPostList = () => {
                     
                     return (
                         <Link key={index} to={post.path} className='item'>
-                            <p>
+                            <div>
                                 <h3>
                                     {post.title}
                                 </h3>
@@ -50,7 +50,7 @@ const BlogPostList = () => {
                                         {post.formattedDate}
                                     </time>
                                 </div>
-                            </p>
+                            </div>
                         </Link>
                     )
                 })
