@@ -38,7 +38,8 @@
 		"start": "yarn develop",
 		"serve": "gatsby serve",
 		"test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-		"deploy:github": "yarn build && node ./scripts/deploy-github.js"
+		"deploy": "yarn build && node ./scripts/deploy-github.js",
+		"deploy:github": "yarn deploy"
 	},
 	"repository": {
 		"type": "git",
