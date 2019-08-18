@@ -16,7 +16,7 @@ import React from 'react';
 const Avatar = () => {
     const data = useStaticQuery(graphql`
         query {
-            placeholderImage: file(relativePath: { eq: "avatar.JPG" }) {
+            placeholderImage: file(relativePath: { eq: "avatar.jpg" }) {
                 childImageSharp {
                     fluid(maxWidth: 300, maxHeight: 300) {
                         ...GatsbyImageSharpFluid
