@@ -22,13 +22,17 @@ module.exports = {
                 url: 'https://open.spotify.com/user/niiapa?si=oESrQQt-QuOSkawLRfFVZw'
             },
             {
-                name: 'wordpress',
-                url: 'https://abbeyabyss.wordpress.com'
+                name: 'apple music',
+                url: 'https://itunes.apple.com/profile/niiapa'
             },
-            {
-                name: 'soundcloud',
-                url: 'https://soundcloud.com/dj-abbey-gh'
-            },
+            // {
+            //     name: 'wordpress',
+            //     url: 'https://abbeyabyss.wordpress.com'
+            // },
+            // {
+            //     name: 'soundcloud',
+            //     url: 'https://soundcloud.com/dj-abbey-gh'
+            // },
         ]
     },
     plugins: [
