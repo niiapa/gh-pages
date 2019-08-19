@@ -15,13 +15,15 @@ const Layout = ({ children }) => {
     
     return (
         <React.Fragment>
-            <Navbar />
-            
-            <main>
-                {children}
-            </main>
-            
-            <Footer/>
+            <div className="container">
+                <Navbar />
+                
+                <main>
+                    {children}
+                </main>
+                
+                <Footer/>
+            </div>
         </React.Fragment>
     );
 };
