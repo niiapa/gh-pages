@@ -26,7 +26,9 @@ const Index = () => (
         <div>
             <nav>
                 <ul>
-                    <li className='active-link'>Blog</li>
+                    <li>
+                        <span className='active-link'>Blog</span>
+                    </li>
                 </ul>
             </nav>
             <BlogPostList/>
