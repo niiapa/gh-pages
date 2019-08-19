@@ -18,12 +18,22 @@ $fontBig: 1.75rem;
 }
 
 body {
-	width: $pageWidth;
-	max-width: 100%;
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
 	background: $black;
 	color: white;
-	margin: 0 auto;
-	padding: 0 10px 10px 10px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex: 1;
+	max-width: 100%;
+	margin: 0 10px 10px 10px;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -32,6 +42,13 @@ div[role="group"][tabindex] {
 	flex-wrap: wrap;
 	flex-direction: column;
 	min-height: 100vh;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+	flex-direction: column;
 }
 
 h1,
@@ -58,7 +75,7 @@ a:active {
 
 nav,
 footer {
-	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	margin: 20px 0;
 	font-family: 'Montserrat', sans-serif;
@@ -74,13 +91,6 @@ footer {
 	font-size: $fontRegular;
 	text-align: right;
 	justify-content: flex-end;
-}
-
-main {
-	display: flex;
-	flex-wrap: wrap;
-	flex: 1;
-	flex-direction: column;
 }
 
 .code {
@@ -170,8 +180,9 @@ main {
 
 /** Desktop **/
 @media (min-width: 1024px) {
-	body {
+	.container {
 		padding: 0;
+		width: $pageWidth;
 	}
 
 	.avatar {
