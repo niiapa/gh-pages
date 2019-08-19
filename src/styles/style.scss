@@ -103,7 +103,11 @@ footer {
 }
 
 .avatar {
-	display: none;
+	width: 100px;
+
+	img {
+		border-radius: 50%;
+	}
 }
 
 .intro-box {
@@ -116,6 +120,10 @@ footer {
 	border: 2px dashed $grey;
 	padding: 15px;
 	margin-bottom: 40px;
+
+	.avatar {
+		display: none;
+	}
 
 	p {
 		padding: 10px 0;
@@ -157,6 +165,7 @@ footer {
 	}
 }
 
+.about,
 .blog-post {
 	border-radius: 4px;
 	padding: 10px;
@@ -178,6 +187,15 @@ footer {
 	}
 }
 
+.center {
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
 /** Desktop **/
 @media (min-width: 1024px) {
 	.container {
@@ -185,14 +203,12 @@ footer {
 		width: $pageWidth;
 	}
 
-	.avatar {
-		display: inline;
-		position: absolute;
-		width: 100px;
-		left: -120px;
-
-		img {
-			border-radius: 50%;
+	.intro-box {
+		.avatar {
+			display: inline;
+			position: absolute;
+			width: 100px;
+			left: -120px;
 		}
 	}
 
