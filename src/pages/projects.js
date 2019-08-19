@@ -28,7 +28,7 @@ const Projects = () => {
         <Layout>
             <SEO title="Projects"/>
             
-            <div className='project-list'>
+            <div className='list'>
             {
                 list.map((project, index) => (
                     <a key={index} className='item' href={project.url} target='_blank'  rel='noopener noreferrer'>

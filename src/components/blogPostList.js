@@ -29,7 +29,7 @@ const BlogPostList = () => {
     );
     
     return (
-        <div className='blog-post-list'>
+        <div className='list'>
             {
                 edges.map((edge, index) => {
                     const post = edge.node.frontmatter;
