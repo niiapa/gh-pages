@@ -155,13 +155,13 @@ if ('function' === typeof importScripts) {
 The code above glues together everything. We import the workbox script and as such, can utilize any sub-modules workbox provides to setup our perfect service worker.
 
 >**Note:** If you're working with typescript, modify your `tsconfig.json` to exclude any files that start with sw:
-```
-"include": [
- 	"src",
-     ...
-],
-"exclude": ["src/sw*"]
-```
+>```
+>"include": [
+> 	"src",
+>     ...
+>],
+>"exclude": ["src/sw*"]
+>```
 
 And that's it. We're done! Our very own custom workbox service worker.
 Thanks for following along.
