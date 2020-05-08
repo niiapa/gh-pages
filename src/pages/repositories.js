@@ -23,17 +23,19 @@ const Repositories = () => {
             {
                 list.map((repository, index) => (
                     <a key={index} className='item' href={repository.url} target='_blank'  rel='noopener noreferrer'>
-                        <h3>{repository.name}</h3>
-                        
-                        <p>
-                            {repository.description}
-                        </p>
-                        
-                        {
-                            repository.tech.map((tech) => (
-                                <div key={tech} className='meta'>{tech}</div>
-                            ))
-                        }
+                        <div>
+                            <h3>{repository.name}</h3>
+
+                            <p>
+                                {repository.description}
+                            </p>
+
+                            {
+                                repository.tech.map((tech) => (
+                                    <div key={tech} className='meta'>{tech}</div>
+                                ))
+                            }
+                        </div>
                     </a>
                 ))
             }

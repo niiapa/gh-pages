@@ -32,17 +32,19 @@ const Projects = () => {
             {
                 list.map((project, index) => (
                     <a key={index} className='item' href={project.url} target='_blank'  rel='noopener noreferrer'>
-                        <h3>{project.name}</h3>
-                        
-                        <p>
-                            {project.description}
-                        </p>
-                        
-                        {
-                            project.tech.map((tech) => (
-                                <div key={tech} className='meta'>{tech}</div>
-                            ))
-                        }
+                        <div>
+                            <h3>{project.name}</h3>
+
+                            <p>
+                                {project.description}
+                            </p>
+
+                            {
+                                project.tech.map((tech) => (
+                                    <div key={tech} className='meta'>{tech}</div>
+                                ))
+                            }
+                        </div>
                     </a>
                 ))
             }

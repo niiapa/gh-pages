@@ -14,6 +14,12 @@ $fontBig: 1.75rem;
 $headerMargin: 35px;
 $paragraphMargin: 20px;
 
+$dangerDark: #7c0f09;
+$dangerMain: #eb4b43;
+
+$warningDark: #ef9b10;
+$warningMain: #feba00;
+
 * {
 	margin: 0;
 	padding: 0;
@@ -29,9 +35,22 @@ body {
 	background: $black;
 	color: white;
 	font-family: 'Raleway', sans-serif;
-	line-height: 22px;
 	font-size: $fontRegular;
 	letter-spacing: 1px;
+	width: 100%;
+}
+
+#___gatsby {
+	width: 100%;
+}
+
+div[role="group"][tabindex] {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: center;
+	min-height: 100vh;
+	width: 100%;
 }
 
 .container {
@@ -39,15 +58,8 @@ body {
 	flex-direction: column;
 	flex-wrap: wrap;
 	flex: 1;
-	max-width: 100%;
-	margin: 0 10px 10px 10px;
-}
-
-div[role="group"][tabindex] {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	min-height: 100vh;
+	width: 100%;
+	padding: 0 10px 10px 10px;
 }
 
 main {
@@ -55,6 +67,7 @@ main {
 	flex-wrap: wrap;
 	flex: 1;
 	flex-direction: column;
+	max-width: 100%;
 }
 
 h1,
@@ -116,14 +129,13 @@ pre {
 	padding: 10px;
 	margin-bottom: 10px;
 	overflow-x: auto;
-	width: $pageWidth;
 
 	code {
-		color: white;
 		padding: 0;
 	}
 }
 code {
+    color: white;
 	font-family: 'Fira Code Retina', 'Fira Code', sans-serif;
 	background-color: $lightBlack;
 	padding: 0 3px;
@@ -132,11 +144,21 @@ code {
 // Notes
 blockquote {
 	display: block;
-	border-left: 10px solid #7c0f09;
-	background-color: #eb4b43;
+	border-left: 10px solid $warningDark;
+	background-color: $warningMain;
+    color: black;
+	padding: 5px;
 
 	p {
 		margin-left: 5px;
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 }
 
@@ -198,13 +220,19 @@ blockquote {
 
 .item {
 	font-weight: lighter;
-	margin-bottom: 18px;
+	padding-bottom: 20px;
 	flex: 1;
 
 	&:hover {
-		border-radius: 4px;
-		padding: 10px;
-		border: 2px $grey dashed;
+		border: none;
+	}
+
+	div {
+		&:hover {
+			border-radius: 4px;
+			padding: 10px;
+			border: 2px $grey dashed;
+		}
 	}
 }
 
@@ -213,9 +241,13 @@ blockquote {
 	border-radius: 4px;
 	padding: 17px;
 	border: 2px $grey dashed;
+	width: 100%;
 }
 
 .blog-post-content {
+	margin-top: 20px;
+	line-height: 22px;
+
 	h1,
 	h2,
 	h3,
@@ -225,10 +257,8 @@ blockquote {
 		margin: $headerMargin 0 10px 0;
 	}
 
-	margin-top: 20px;
-
 	p {
-		margin-bottom: $paragraphMargin;
+		margin: $paragraphMargin 0;
 	}
 
 	.playlist {
@@ -236,6 +266,10 @@ blockquote {
 		flex-direction: row;
 		justify-content: center;
 		padding-top: 15px;
+	}
+
+	a {
+		word-wrap: break-word;
 	}
 }
 
