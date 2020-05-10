@@ -5,9 +5,7 @@ title: "Custom Worbox Service Worker for Create React App (CRA)"
 tags: javascript, typescript, node, cra
 ---
 
->**Note:** This tutorial was written as of the following version: 
->
->`"react-scripts": "^3.4.1"`.
+>This tutorial was written as of `"react-scripts": "^3.4.1"`.
 
 As we all know, `create-react-app` makes starting development on a react project fairly easy. 
 It's a great starting point to get your app up and running, however, sometimes when you need that extra bit of functionality that's not provided out the box, you can find that it can be quite a mess to figure out. Particularly for my case, where I needed to have my own custom workbox setup for a project.
@@ -24,7 +22,7 @@ _At this point I'd say check the above tools out to see if they provide the func
 
 I found I needed more functionality from my workbox than what the above tools plugins provided. Particularly, I wanted to implement `backgroundSync` which essentially provides a way to queue up failed requests and retry them (even in the background) when connectivity is restored.
 
->**Note:** I will not be covering `backgroundSync` in this post, but it's fairly easy to implement after this setup.
+>I will not be covering `backgroundSync` in this post, but it's fairly easy to implement after this setup.
 
 ## Concept
 It's hard to hook into `create-react-app`'s workbox setup solely through configuration. Instead, what we will implement is a set of scripts to replace the generated service worker `create-react-app` provides with our very own one 😈
@@ -156,7 +154,7 @@ if ('function' === typeof importScripts) {
 
 The code above glues together everything. We import the workbox script and as such, can utilize any sub-modules workbox provides to setup our perfect service worker.
 
->**Note:** If you're working with typescript, modify your `tsconfig.json` to exclude any files that start with sw:
+>If you're working with typescript, modify your `tsconfig.json` to exclude any files that start with sw:
 >```
 >"include": [
 > 	"src",
