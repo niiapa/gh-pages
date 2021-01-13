@@ -13,14 +13,11 @@ const Index = () => (
                 <Avatar/>
             </div>
             
-            Hello...
+            Yo...
             
             <p>
-                I'm Nii Apa. A software engineer based out of Accra, Ghana, and London, UK.<br />
-                I will be posting my adventures, not only into code, on here...
+                I'm Nii. I start shit with code and never see it through 🙃
             </p>
-            
-            Enjoy!
         </div>
         
         <div>
