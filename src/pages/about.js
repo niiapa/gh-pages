@@ -28,7 +28,7 @@ const About = () => (
                 
                 <h2>Nii Apa Abbey</h2>
                 <small>Software Engineer</small>
-                <i>London | Accra</i>
+                <small>LDN | ACC</small>
                 
                 <div style={{ display: 'flex',  flexWrap: 'wrap', flex: 1, justifyContent: 'center'}}>
                     {

@@ -13,9 +13,8 @@ const Index = () => (
                 <Avatar/>
             </div>
             
-            Yo...
-            
             <p>
+                Hey, <br/>
                 I'm Nii. I start shit with code and never see it through 🙃
             </p>
         </div>
