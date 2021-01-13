@@ -11,7 +11,9 @@ const Projects = () => {
             tech: [
                 'react-js',
                 'firebase',
-                'semantic-ui'
+                'material-ui',
+                'ssr',
+                'next-js'
             ]
         },
         {
