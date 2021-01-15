@@ -21,10 +21,10 @@ module.exports = {
                 name: 'spotify',
                 url: 'https://open.spotify.com/user/niiapa?si=oESrQQt-QuOSkawLRfFVZw'
             },
-            {
-                name: 'apple music',
-                url: 'https://itunes.apple.com/profile/niiapa'
-            },
+            // {
+            //     name: 'apple music',
+            //     url: 'https://itunes.apple.com/profile/niiapa'
+            // },
             // {
             //     name: 'wordpress',
             //     url: 'https://abbeyabyss.wordpress.com'
