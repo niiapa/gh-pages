@@ -1,6 +1,8 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import Item from "../components/item";
+import ExternalLink from "../components/externalLink";
 
 const Repositories = () => {
     const list = [
@@ -22,8 +24,8 @@ const Repositories = () => {
             <div className='list'>
             {
                 list.map((repository, index) => (
-                    <a key={index} className='item' href={repository.url} target='_blank'  rel='noopener noreferrer'>
-                        <div>
+                    <ExternalLink key={index} href={repository.url}>
+                        <Item>
                             <h3>{repository.name}</h3>
 
                             <p>
@@ -35,8 +37,8 @@ const Repositories = () => {
                                     <div key={tech} className='meta'>{tech}</div>
                                 ))
                             }
-                        </div>
-                    </a>
+                        </Item>
+                    </ExternalLink>
                 ))
             }
             </div>

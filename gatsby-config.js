@@ -1,25 +1,25 @@
 module.exports = {
     siteMetadata: {
         title: `Nii Apa`,
-        description: `A me nii website`,
+        description: `A mi-nii website`,
         author: `Nii Apa Abbey`,
         twitterHandle: '@niiapa',
         socials: [
             {
-                name: 'github',
-                url: 'https://github.com/niiapa'
+                name: 'instagram',
+                url: 'https://instagram.com/niiapa'
             },
             {
                 name: 'twitter',
                 url: 'https://twitter.com/niiapa'
             },
             {
-                name: 'instagram',
-                url: 'https://instagram.com/niiapa'
-            },
-            {
                 name: 'spotify',
                 url: 'https://open.spotify.com/user/niiapa?si=oESrQQt-QuOSkawLRfFVZw'
+            },
+            {
+                name: 'github',
+                url: 'https://github.com/niiapa'
             },
             // {
             //     name: 'apple music',

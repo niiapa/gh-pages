@@ -1,15 +1,31 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import Item from "../components/item";
+import ExternalLink from "../components/externalLink";
 
 const Projects = () => {
     const list = [
+        {
+            name: 'Oware',
+            url: 'https://oware-js.web.app/',
+            description: 'A two-player one-round game of the classic Ghanaian game, Oware',
+            tech: [
+                'react',
+                'redux',
+                'javascript',
+                'firebase',
+                'game',
+                'multiplayer',
+            ]
+        },
         {
             name: 'DettySZN',
             url: 'https://dettyszn.com',
             description: 'A site to search and find events going on in the heart of Ghana, Accra.',
             tech: [
-                'react-js',
+                'react',
+                'javascript',
                 'firebase',
                 'material-ui',
                 'ssr',
@@ -25,16 +41,16 @@ const Projects = () => {
             ]
         }
     ];
-    
+
     return (
         <Layout>
             <SEO title="Projects"/>
-            
+
             <div className='list'>
             {
                 list.map((project, index) => (
-                    <a key={index} className='item' href={project.url} target='_blank'  rel='noopener noreferrer'>
-                        <div>
+                    <ExternalLink key={index} href={project.url}>
+                        <Item>
                             <h3>{project.name}</h3>
 
                             <p>
@@ -46,8 +62,8 @@ const Projects = () => {
                                     <div key={tech} className='meta'>{tech}</div>
                                 ))
                             }
-                        </div>
-                    </a>
+                        </Item>
+                    </ExternalLink>
                 ))
             }
             </div>

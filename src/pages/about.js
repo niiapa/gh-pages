@@ -6,14 +6,13 @@ import SEO from '../components/seo';
 const tech = [
     'javascript',
     'reactjs',
-    'vuejs',
     'redux',
     'graphql',
     'firebase',
     'php',
     'laravel',
     'java',
-    'mysql'
+    'mysql',
 ];
 
 const About = () => (
@@ -27,7 +26,8 @@ const About = () => (
                 </div>
                 
                 <h2>Nii Apa Abbey</h2>
-                <small>Software Engineer</small>
+                <small>Chief Technical Officer at Chalkboard</small>
+                <small>Senior Frontend Engineer at Medtronic</small>
                 <small>LDN | ACC</small>
                 
                 <div style={{ display: 'flex',  flexWrap: 'wrap', flex: 1, justifyContent: 'center'}}>
