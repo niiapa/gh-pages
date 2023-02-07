@@ -1,7 +1,7 @@
 ---
 path: "/blog/custom-cra-workbox-service-worker"
 date: "2020-05-07"
-title: "Custom Worbox Service Worker for Create React App (CRA)"
+title: "Custom Workbox Service Worker for Create React App (CRA)"
 tags: javascript, typescript, node, cra
 ---
 
@@ -40,7 +40,7 @@ What this does is enable us to use a set of commands provided by the dependecy t
 Next we're going to prep our scripts in our `package.json` which will handle building our own service-worker, and removing the generated one.
 
 In your `package.json` file, add the following scripts:
-```
+```json
 "build-sw": "workbox injectManifest workbox.config.js",
 "clean-cra-sw": "rm -f build/precache-manifest.*.js && rm -f build/service-worker.js",
 "replace-sw": "npm run build-sw && npm run clean-cra-sw"
@@ -63,7 +63,7 @@ In the root of your application, (where your `package.json` lives (not inside yo
 This will hold the basic configuration for workbox.
 
 In the file, add the following lines of code:
-```
+```javascript
 module.exports = {
 	swSrc: 'src/sw-custom.js',
 	swDest: 'build/sw.js',
@@ -86,11 +86,11 @@ module.exports = {
  Seeing as we would want our own service worker that we build to be used in the registration/unregistration process, we need to make a tiny tweak the the `serviceWorker.js` file provided to us.
 
  In the file, find the following line: 
- ```
+ ```javascript
  const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
  ```
  and replace the last part to refer to our to-be-built service worker: 
- ```
+ ```javascript
  const swUrl = `${process.env.PUBLIC_URL}/sw.js`;
  ```
 
@@ -102,7 +102,7 @@ module.exports = {
  In this file we will define an injection point for our manifest, and any other workbox modules we want to utilize (like caching or `backgroundSync`) will go in here.
 
  Inside your `src` directory, create a `sw-custom.js` file and fill it with the following:
- ```
+ ```javascript
 if ('function' === typeof importScripts) {
 	importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
@@ -160,7 +160,7 @@ if ('function' === typeof importScripts) {
 The code above glues together everything. We import the workbox script and as such, can utilize any sub-modules workbox provides to setup our perfect service worker.
 
 >If you're working with typescript, modify your `tsconfig.json` to exclude any files that start with sw:
->```
+>```json
 >"include": [
 > 	"src",
 >     ...
