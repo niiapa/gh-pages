@@ -9,15 +9,15 @@ const Navbar = () => {
         },
         {
             name: 'Projects',
-            url: 'projects'
+            url: '/projects'
         },
         // {
         //     name: 'Repositories',
-        //     url: 'repositories'
+        //     url: '/repositories'
         // },
         {
             name: 'About',
-            url: 'about'
+            url: '/about'
         }
     ];
     
