@@ -326,6 +326,7 @@ blockquote {
 		font-size: $fontRegular;
 
 		ul {
+			padding: 0;
 			display: flex;
 			flex-wrap: wrap;
 			flex: 1;
