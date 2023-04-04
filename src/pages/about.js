@@ -26,7 +26,7 @@ const About = () => (
                 </div>
                 
                 <h2>Nii Apa Abbey</h2>
-                <small>Chief Technical Officer at Chalkboard</small>
+                <small>Chief Technology Officer at Chalkboard</small>
                 <small>Senior Frontend Engineer at Medtronic</small>
                 <small>LDN | ACC</small>
                 
