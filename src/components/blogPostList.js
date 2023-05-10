@@ -28,38 +28,46 @@ const BlogPostList = () => {
             }
         `
     );
+
+    const getPostFromEdge = (edge) => edge?.node?.frontmatter;
+    const getExcerptFromEdge = (edge) => edge?.node?.excerpt;
+    const getPostsWithExcerptsFromEdges = (condition) => edges.reduce((posts, edge) => {
+        const post = getPostFromEdge(edge);
+        const excerpt = getExcerptFromEdge(edge);
+
+        if (condition && condition(post)) {
+            return [...posts , { ...post, excerpt }];
+        }
+
+        return posts;
+    }, []);
+
+    const unpinnedBlogPostEdges = getPostsWithExcerptsFromEdges((post) => !post.isPinned);
+    const pinnedBlogPostEdges = getPostsWithExcerptsFromEdges((post) => post.isPinned);
+
+    const renderPost = ({ path, title, excerpt, date, formattedDate }) => {
+        return (
+        <Link
+            key={path}
+            to={path}
+            className='unstyled-link'
+        >
+            <Item>
+                <h3>{title}</h3>
+
+                <p>{excerpt}</p>
+
+                <div className='meta'>
+                    <time dateTime={date}>{formattedDate}</time>
+                </div>
+            </Item>
+        </Link>
+    )};
     
     return (
         <div className='list'>
-            {
-                edges.map((edge, index) => {
-                    const post = edge.node.frontmatter;
-                    
-                    return (
-                        <Link
-                            key={index}
-                            to={post.path}
-                            className='unstyled-link'
-                        >
-                            <Item>
-                                <h3>
-                                    {post.title}
-                                </h3>
-
-                                <p>
-                                    {edge.node.excerpt}
-                                </p>
-
-                                <div className='meta'>
-                                    <time dateTime={post.date}>
-                                        {post.formattedDate}
-                                    </time>
-                                </div>
-                            </Item>
-                        </Link>
-                    )
-                })
-            }
+            {pinnedBlogPostEdges?.map(renderPost)}
+            {unpinnedBlogPostEdges?.map(renderPost)}
         </div>
     );
 };
