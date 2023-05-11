@@ -13,7 +13,7 @@ const BlogPostList = () => {
                             excerpt(pruneLength: 250)
                             frontmatter {
                                 date
-                                formattedDate: date(formatString: "DD MMMM, YYYY")
+                                formattedDate: date(formatString: "DD MMMM YYYY")
                                 path
                                 title
                             }
