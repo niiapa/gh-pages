@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import Item from "../components/item";
 import ExternalLink from "../components/externalLink";
 
@@ -19,7 +19,7 @@ const Repositories = () => {
     
     return (
         <Layout>
-            <SEO title="Repositories"/>
+            <Seo title="Repositories"/>
             
             <div className='list'>
             {

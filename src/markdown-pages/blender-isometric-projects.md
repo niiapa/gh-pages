@@ -17,9 +17,9 @@ Here's what came of it:
 
 
 
-###Project 00
+### Project 00
 ![Project 00](./../images/blender/isometric/project-00.png)
 
 
-###Project 01
+### Project 01
 ![Project 01](./../images/blender/isometric/project-01.png)

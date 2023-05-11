@@ -6,12 +6,7 @@ const BlogPostList = () => {
     const { allMarkdownRemark: { edges } } = useStaticQuery(
         graphql`
             query {
-                allMarkdownRemark(
-                    sort: {
-                        order: DESC,
-                        fields: [frontmatter___date]
-                    }
-                ) {
+                allMarkdownRemark(sort: { frontmatter: { date: DESC }}, limit: 1000) {
                     edges {
                         node {
                             id

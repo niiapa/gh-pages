@@ -2,11 +2,11 @@ import React from 'react';
 import Avatar from '../components/avatar';
 import BlogPostList from '../components/blogPostList';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 const Index = () => (
     <Layout>
-        <SEO title="Home"/>
+        <Seo title="Home"/>
         
         <div className="intro-box">
             <div className='avatar'>

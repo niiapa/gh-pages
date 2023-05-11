@@ -1,14 +1,15 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 const BlogPostTemplate = ({ data }) => {
-    const { markdownRemark: { frontmatter, html } } = data;
+    const { markdownRemark } = data;
+    const { frontmatter, html } = markdownRemark;
     
     return (
         <Layout>
-            <SEO title={`${frontmatter.title} | Blog`}/>
+            <Seo title={`${frontmatter.title} | Blog`}/>
             
             <div className="blog-post">
                 <h1>{frontmatter.title}</h1>

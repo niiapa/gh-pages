@@ -1,7 +1,7 @@
 import React from 'react';
 import Avatar from '../components/avatar';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 const tech = [
     'javascript',
@@ -17,7 +17,7 @@ const tech = [
 
 const About = () => (
     <Layout>
-        <SEO title="About"/>
+        <Seo title="About"/>
         
         <div className='about'>
             <div className='center'>
