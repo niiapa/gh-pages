@@ -45,8 +45,7 @@ const BlogPostList = () => {
     const unpinnedBlogPostEdges = getPostsWithExcerptsFromEdges((post) => !post.isPinned);
     const pinnedBlogPostEdges = getPostsWithExcerptsFromEdges((post) => post.isPinned);
 
-    const renderPost = ({ path, title, excerpt, date, formattedDate }) => {
-        return (
+    const renderPost = ({ path, title, excerpt, date, formattedDate }) => (
         <Link
             key={path}
             to={path}
@@ -62,12 +61,12 @@ const BlogPostList = () => {
                 </div>
             </Item>
         </Link>
-    )};
+    );
     
     return (
         <div className='list'>
-            {pinnedBlogPostEdges?.map(renderPost)}
-            {unpinnedBlogPostEdges?.map(renderPost)}
+            {pinnedBlogPostEdges.map(renderPost)}
+            {unpinnedBlogPostEdges.map(renderPost)}
         </div>
     );
 };
