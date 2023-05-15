@@ -2,7 +2,7 @@ module.exports = {
     trailingSlash: 'never',
     siteMetadata: {
         title: `Nii Apa`,
-        description: `A mi-nii website`,
+        description: `A minii website`,
         author: `Nii Apa Abbey`,
         twitterHandle: '@niiapa',
         socials: [
