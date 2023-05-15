@@ -6,7 +6,7 @@ tags: code, bash, bluetooth, blueutil, sleepwatcher, macos, homebrew, spotify
 ---
 
 ## Problem
-I have 2 MacBooks and one Bluetooth speaker in my current desk setup, and it has been the bane of my existence since I resumed working from home.
+I have 2 MacBooks and 1 Bluetooth speaker in my current desk setup, and it has been the bane of my existence since I resumed working from home.
 I use only 1 MacBook at a time, and I switch between them depending on what I'm working on. The speaker can connect to both MacBooks at the same time, but, 
 and it's a big BUTT, I can't use Spotify on either machine if both are connected. 
 It's a weird issue with Spotify allowing you to control music with multiple devices so if I press "play" on one MacBook, the other MacBook will pause the music because 
