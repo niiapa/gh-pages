@@ -71,7 +71,7 @@ It's a simple script that uses two packages, `blueutil` and `sleepwatcher`.
     $ chmod +x .sleep .wakeup
     ```
 
-#### User Agent Setup (Required):
+### User Agent Setup (Required):
 - Symlink the sample plist file (which already lists `.sleep` and `.wakeup` in the HOME directory, so no need to configure manually), to the `~/Library/LaunchAgents` directory to install the user agent
     ```bash
     $ ln -sfv "$(brew --cellar)/sleepwatcher/2.2.1/homebrew.mxcl.sleepwatcher.plist" ~/Library/LaunchAgents/
@@ -83,7 +83,7 @@ It's a simple script that uses two packages, `blueutil` and `sleepwatcher`.
     $ launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/homebrew.mxcl.sleepwatcher.plist
     ```
 
-#### System Agent Setup (Optional):
+### System Agent Setup (Optional):
 _The difference between the user agent and the system agent is that the user agent runs when you log in, and the system agent runs when the computer starts up_
 - Symlink the sample plist file (which already lists `.sleep` and `.wakeup` in the HOME directory, so no need to configure manually), to the `/Library/LaunchAgents` directory to install the system agent
     ```bash
