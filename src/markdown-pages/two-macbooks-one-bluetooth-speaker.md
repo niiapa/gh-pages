@@ -83,6 +83,7 @@ It's a simple script that uses two packages, `blueutil` and `sleepwatcher`.
     ```
 
 And voila, you're done! 🎉
+Now when one MacBook sleeps, it automatically disconnects from the speaker, and since I've run this setup on my other machine too, when it wakes up, it automatically connects to the speaker. And vice versa. 
 
 
 
