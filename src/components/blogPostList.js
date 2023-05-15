@@ -10,12 +10,13 @@ const BlogPostList = () => {
                     edges {
                         node {
                             id
-                            excerpt(pruneLength: 250)
+                            excerpt(pruneLength: 200)
                             frontmatter {
                                 date
                                 formattedDate: date(formatString: "DD MMMM YYYY")
                                 path
                                 title
+                                isPinned
                             }
                         }
                     }
