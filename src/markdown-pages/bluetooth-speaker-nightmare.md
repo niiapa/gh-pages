@@ -18,6 +18,9 @@ Plot twist, I had to do some manual research (sources linked below).
 
 > This tutorial was written as of `sleepwatcher` version 2.2.1
 
+#### Tip:
+`$` means run the command in your terminal (without the dollar sign)
+
 ## Synopsis
 It's a simple script that uses two packages, `blueutil` and `sleepwatcher`.
 
@@ -36,25 +39,25 @@ It's a simple script that uses two packages, `blueutil` and `sleepwatcher`.
     https://brew.sh/
 
 
-- Install blueutil and sleepwatcher with homebrew
+- Install `blueutil` and `sleepwatcher` using homebrew
     ```bash
-    brew install blueutil sleepwatcher
+    $ brew install blueutil sleepwatcher
     ```
 
 - Get the MAC address of your bluetooth device. It should be in the format (XX-XX-XX-XX-XX-XX)
     ```bash
-    blueutil --paired
+    $ blueutil --paired
     ```
 
-- Create a `./sleep` file in your HOME directory (`cd ~`) and add the following to disconnect your bluetooth device
-    ```bash
+- Create a `./sleep` file in your HOME directory (`cd ~`) and fill in the following to disconnect your bluetooth device
+    ```shell
     #!/bin/bash 
     DEVICE_ADDRESS="XX-XX-XX-XX-XX-XX"
     blueutil --disconnect $DEVICE_ADDRESS
     ```
 
-- Create a `./wakeup` file in your HOME directory (`cd ~`) and add the following to connect your bluetooth device
-    ```bash
+- Create a `./wakeup` file in your HOME directory (`cd ~`) and fill in the following to connect your bluetooth device
+    ```shell
     #!/bin/bash
     DEVICE_ADDRESS="XX-XX-XX-XX-XX-XX"
     blueutil --connect $DEVICE_ADDRESS
@@ -62,19 +65,18 @@ It's a simple script that uses two packages, `blueutil` and `sleepwatcher`.
 
 - Make the files executable
     ```bash
-    cd ~
-    chmod +x .sleep .wakeup
+    $ cd ~
+    $ chmod +x .sleep .wakeup
     ```
 
-- Add the sample plist file (which already lists `.sleep` and `.wakeup` in the HOME directory, so no need to configure manually),
-to the `/Library/LaunchAgents` directory to install the system agent
+- Add the sample plist file (which already lists `.sleep` and `.wakeup` in the HOME directory, so no need to configure manually), to the `/Library/LaunchAgents` directory to install the system agent
     ```bash
-    sudo launchctl load ~/Library/LaunchAgents/homebrew.mxcl.sleepwatcher.plist
+    $ sudo launchctl load ~/Library/LaunchAgents/homebrew.mxcl.sleepwatcher.plist
     ```
 
 - Load the plist file
     ```bash
-    sudo launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/homebrew.mxcl.sleepwatcher.plist
+    $ sudo launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/homebrew.mxcl.sleepwatcher.plist
     ```
 
 And voila, you're done! 🎉
