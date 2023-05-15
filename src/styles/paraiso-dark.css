@@ -29,7 +29,7 @@ pre[class*="language-"] {
   hyphens: none; 
   white-space: pre; 
   white-space: pre-wrap; 
-  word-break: break-all;
+  /*word-break: break-all;*/
   word-wrap: break-word; 
   background: #2f1e2e; 
   color: #a39e9b;
