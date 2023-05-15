@@ -71,6 +71,7 @@ It's a simple script that uses two packages, `blueutil` and `sleepwatcher`.
     $ chmod +x .sleep .wakeup
     ```
 
+##### User Agent Setup (Required):
 - Symlink the sample plist file (which already lists `.sleep` and `.wakeup` in the HOME directory, so no need to configure manually), to the `~/Library/LaunchAgents` directory to install the system agent
     ```bash
     $ ln -sfv "$(brew --cellar)/sleepwatcher/2.2.1/homebrew.mxcl.sleepwatcher.plist" ~/Library/LaunchAgents/
@@ -79,8 +80,20 @@ It's a simple script that uses two packages, `blueutil` and `sleepwatcher`.
 
 - Load the configuration with launchd
     ```bash
-    $ sudo launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/homebrew.mxcl.sleepwatcher.plist
+    $ launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/homebrew.mxcl.sleepwatcher.plist
     ```
+
+##### System Agent Setup (Optional):
+- Symlink the sample plist file (which already lists `.sleep` and `.wakeup` in the HOME directory, so no need to configure manually), to the `~/Library/LaunchAgents` directory to install the system agent
+    ```bash
+    $ sudo ln -sfv "$(brew --cellar)/sleepwatcher/2.2.1/homebrew.mxcl.sleepwatcher.plist" /Library/LaunchAgents/
+    ```
+  > This tutorial was written as of `sleepwatcher` version 2.2.1 so the plist file may be different for you. Check the version you have installed by running `$ brew info sleepwatcher` and replace the version number in the command above with the version you have installed.
+
+- Load the configuration with launchd
+    ```bash
+    $ sudo launchctl bootstrap gui/$(id -u) /Library/LaunchAgents/homebrew.mxcl.sleepwatcher.plist
+    ``` 
 
 And voila, you're done! 🎉
 Now when one MacBook sleeps, it automatically disconnects from the speaker, and since I've run this setup on my other machine too, when it wakes up, it automatically connects to the speaker. And vice versa. 
