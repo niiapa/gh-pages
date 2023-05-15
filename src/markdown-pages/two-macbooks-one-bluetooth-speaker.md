@@ -73,8 +73,9 @@ It's a simple script that uses two packages, `blueutil` and `sleepwatcher`.
 
 - Symlink the sample plist file (which already lists `.sleep` and `.wakeup` in the HOME directory, so no need to configure manually), to the `~/Library/LaunchAgents` directory to install the system agent
     ```bash
-    $ ln -sfv /opt/homebrew/Cellar/sleepwatcher/2.2.1/homebrew.mxcl.sleepwatcher.plist ~/Library/LaunchAgents/
+    $ ln -sfv "$(brew --cellar)/sleepwatcher/2.2.1/homebrew.mxcl.sleepwatcher.plist" ~/Library/LaunchAgents/
     ```
+    > This tutorial was written as of `sleepwatcher` version 2.2.1 so the plist file may be different for you. Check the version you have installed by running `$ brew info sleepwatcher` and replace the version number in the command above with the version you have installed.
 
 - Load the configuration with launchd
     ```bash
