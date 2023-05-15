@@ -59,6 +59,8 @@ It's a simple script that uses two packages, `blueutil` and `sleepwatcher`.
 - Create a `./wakeup` file in your HOME directory (`cd ~`) and fill in the following to connect your bluetooth device
     ```shell
     #!/bin/bash
+    # Sleep for 10 seconds before attempting connection
+    sleep 10
     DEVICE_ADDRESS="XX-XX-XX-XX-XX-XX"
     blueutil --connect $DEVICE_ADDRESS
     ```
