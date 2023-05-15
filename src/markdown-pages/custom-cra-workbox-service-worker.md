@@ -125,10 +125,14 @@ if ('function' === typeof importScripts) {
         **/
 
 		// https://github.com/GoogleChrome/workbox/issues/2095
-		const handler = workbox.precaching.createHandlerBoundToURL('/index.html');
-		const navigationRoute = new workbox.routing.NavigationRoute(handler, {
-			denylist: [/^\/__/, /\/[^\/]+.[^\/]+$/]
-		});
+		const handler = workbox
+                        .precaching
+                        .createHandlerBoundToURL('/index.html');
+		const navigationRoute = new workbox
+                .routing
+                .NavigationRoute(handler, {
+                    denylist: [/^\/__/, /\/[^\/]+.[^\/]+$/]
+                });
 		workbox.routing.registerRoute(navigationRoute);
 
 		// Cache Images
@@ -172,7 +176,7 @@ And that's it. We're done! Our very own custom workbox service worker.
 Thanks for following along.
 
 
-References:
+#### Sources:
 - https://developers.google.com/web/tools/workbox/modules/workbox-cli
 - https://medium.com/@chinmaya.cp/custom-service-worker-in-cra-create-react-app-3b401d24b875
 
