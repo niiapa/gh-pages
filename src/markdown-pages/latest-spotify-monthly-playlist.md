@@ -1,6 +1,6 @@
 ---
 path: "/blog/latest-monthly-playlist"
-date: "2023-07-28"
+date: "2023-08-22"
 title: "Latest Monthly Playlist"
 tags: music, updated, monthly, spotify, playlist
 isPinned: true
@@ -9,4 +9,4 @@ isPinned: true
 
 <br />
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3t2hyG8mSEdwZncvx7Lc3B?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6EZouV2Tra4aMFxJkgYvEC?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
