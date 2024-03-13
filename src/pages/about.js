@@ -5,14 +5,13 @@ import Seo from '../components/seo';
 
 const tech = [
     'javascript',
+    'typescript',
     'reactjs',
     'redux',
-    'graphql',
-    'firebase',
     'php',
     'laravel',
     'java',
-    'mysql',
+    'sql',
 ];
 
 const About = () => (
