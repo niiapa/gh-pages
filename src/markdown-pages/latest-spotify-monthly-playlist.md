@@ -1,6 +1,6 @@
 ---
 path: "/blog/latest-monthly-playlist"
-date: "2024-03-10"
+date: "2024-07-06"
 title: "Latest Monthly Playlist"
 tags: music, updated, monthly, spotify, playlist
 isPinned: true
