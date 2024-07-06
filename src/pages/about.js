@@ -25,8 +25,8 @@ const About = () => (
                 </div>
                 
                 <h2>Nii Apa Abbey</h2>
-                <small>Chief Technology Officer at Chalkboard</small>
-                <small>Senior Frontend Engineer at Medtronic</small>
+                <small>Chief Technology Officer @ Chalkboard</small>
+                <small>Principal Engineer @ Medtronic</small>
                 <small>LDN | ACC</small>
                 
                 <div style={{ display: 'flex',  flexWrap: 'wrap', flex: 1, justifyContent: 'center'}}>
