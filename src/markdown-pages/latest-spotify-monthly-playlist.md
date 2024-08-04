@@ -13,7 +13,8 @@ isPinned: true
 
 <br />
 
-<h3>2024 thus far: </h3> <br /><br />
+<h3>2024 Monthly Playlists</h3>
+
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3WBIHdEiVtXXifGbvggRtu?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/76u0CtZruVPf61ht9QzuOh?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/04L7bPJqrhjB0LivEXe3gx?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
