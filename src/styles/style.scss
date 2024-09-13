@@ -282,6 +282,21 @@ blockquote {
 	a {
 		word-wrap: break-word;
 	}
+
+	.gatsby-resp-image-wrapper {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+		text-align: center;
+		margin: 0.5rem
+	}
+
+	img {
+		width: 100%;           /* Make the image fill the width of its container */
+		height: auto;          /* Maintain the aspect ratio */
+		object-fit: cover;      /* Ensures that the image covers the container */
+		display: block;        /* Removes any potential space under the image */
+	}
 }
 
 .center {

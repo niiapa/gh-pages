@@ -3,7 +3,7 @@ path: "/blog/latest-monthly-playlist"
 date: "2024-08-04"
 title: "Latest Monthly Playlist"
 tags: music, updated, monthly, yearly, spotify, playlist
-isPinned: true
+isPinned: false
 ---
 <blockquote><i>(Almost) Every month since the month of April 2017, I have made these little playlists that capture what I feel...</i></blockquote>
 
