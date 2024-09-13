@@ -17,16 +17,17 @@ The other 0.5? For not performing "House in LA" 😔
 
 Unfortunately I have this curse of not having my favourite songs performed by the people I go see.
 
-They're one of the bands that sounds phenomenal both in person and through your Spotify, or radio, or listening device. Quick aside, 
-phones used to have radios, and you could literally tune into FM/AM channels, and now we (or at least Spotify) refer to radios as playlists of similar songs. 
+Jungle is one of the bands that sounds phenomenal both in person and through your Spotify, or radio, or listening device. 
+<i>Quick aside, phones used to have radios, and you could literally tune into FM/AM channels, and now we (or at least Spotify) refer to radios as playlists of similar songs... how the times change</i> 
 
-And they're phenomenal because they're one of the bands that sounds exactly like they sing on the record. And that, coupled 
+And they, Jungle, are phenomenal because they're one of the bands that sounds exactly like they sing on the record. And that, coupled 
 with the experience of being there, and appreciating it with a myriad of people, all doing their own little shimmy's, is fucking great.
 
-Plus the visuals... come on! Props to the set designer 🙌🏾
+Plus the visuals!!! Props to the set designer 🙌🏾
+Parcels is another band that does really good silhouette sets, and they're music is fire too so check them out if you ever get the chance.
 
 Listen, I love dancing, I love jams, I love silhouettes moving against a backlight. 
-If you give me the three combined in such quality, you've made me a happy man. So thank you guys.
+If you give me the three combined in such tasteful quality, you've made me a happy man. So thank you guys.
 
 I took some photos, as I usually do. Enjoy them below, and thank you for reading this far 🙂
 
