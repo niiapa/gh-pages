@@ -1,6 +1,6 @@
 ---
 path: "/blog/jungle-o2-london-2024"
-date: "2024-07-13"
+date: "2024-09-13"
 title: "Jungle at the O2"
 tags: concert, music, band, jungle, o2
 ---
