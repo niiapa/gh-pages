@@ -32,25 +32,25 @@ If you give me the three combined in such tasteful quality, you've made me a hap
 I took some photos, as I usually do. Enjoy them below, and thank you for reading this far 🙂
 
 
-![](./../images/jungle-concert/DSCF9729.jpg)
+![](./../images/jungle-concert/DSCF9729.jpeg)
 
-![](./../images/jungle-concert/DSCF9730.JPG)
+![](./../images/jungle-concert/DSCF9730.jpeg)
 
-![](./../images/jungle-concert/DSCF9732.JPG)
+![](./../images/jungle-concert/DSCF9732.jpeg)
 
-![](./../images/jungle-concert/DSCF9734.jpg)
+![](./../images/jungle-concert/DSCF9734.jpeg)
 
-![](./../images/jungle-concert/DSCF9736.jpg)
+![](./../images/jungle-concert/DSCF9736.jpeg)
 
-![](./../images/jungle-concert/DSCF9737.JPG)
+![](./../images/jungle-concert/DSCF9737.jpeg)
 
-![](./../images/jungle-concert/DSCF9750.JPG)
+![](./../images/jungle-concert/DSCF9750.jpeg)
 
-![](./../images/jungle-concert/DSCF9753.jpg)
+![](./../images/jungle-concert/DSCF9753.jpeg)
 
-![](./../images/jungle-concert/DSCF9754.jpg)
+![](./../images/jungle-concert/DSCF9754.jpeg)
 
-![](./../images/jungle-concert/DSCF9761.jpg)
+![](./../images/jungle-concert/DSCF9761.jpeg)
 
 
 <small style="display:block;text-align: right;"><small>Shot by me on Fujifilm x100V</small></small>
