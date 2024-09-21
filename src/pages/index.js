@@ -15,7 +15,7 @@ const Index = () => (
             
             <p>
                 Hey, <br/>
-                I'm Nii. I start shit with code and never see it through 🙃
+                I'm Nii. Nii Apa.
             </p>
         </div>
         
