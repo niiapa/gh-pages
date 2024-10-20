@@ -1,6 +1,6 @@
 ---
 path: "/blog/latest-monthly-playlist"
-date: "2024-08-04"
+date: "2024-10-20"
 title: "Latest Monthly Playlist"
 tags: music, updated, monthly, yearly, spotify, playlist
 isPinned: false
@@ -9,12 +9,13 @@ isPinned: false
 
 <br />
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0yBnJNuSXX6Xz9J2Oj1z2W?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3NBCoYrkdBmwz54K4bGwya?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <br /><br /><br />
 
 <h3>2024 Monthly Playlists</h3>
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3NBCoYrkdBmwz54K4bGwya?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5VxNQprmgZWPYQwOuSPnL3?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5d4zuIofRFQNqWqftNGURE?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0yBnJNuSXX6Xz9J2Oj1z2W?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1K0C9X2ZHlcI2ofBLBA6uy?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
