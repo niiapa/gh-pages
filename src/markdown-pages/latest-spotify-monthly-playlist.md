@@ -1,6 +1,6 @@
 ---
 path: "/blog/latest-monthly-playlist"
-date: "2024-12-04"
+date: "2025-03-31"
 title: "Latest Monthly Playlist"
 tags: music, updated, monthly, yearly, spotify, playlist
 isPinned: true
@@ -9,7 +9,16 @@ isPinned: true
 
 <br />
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6pRcZEgWunc7PzFfYjjBd4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1RPWIW9AWWMOj2Ar5zgAK7?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<br /><br /><br />
+
+<h3>2025 Monthly Playlists</h3>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1RPWIW9AWWMOj2Ar5zgAK7?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0wggcRqxA3pIYihINVNXwq?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5ychZCLTGAzalohdbku65Q?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 <br /><br /><br />
 
 <h3>2024 Monthly Playlists</h3>
