@@ -10,14 +10,12 @@ note: "Don't forget to set the border-radius of the iframe to 4px to match blog 
 
 <br />
 
-<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/3q7pXwHozPqtioPLkw2eTI?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
+<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/3q7pXwHozPqtioPLkw2eTI?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <br /><br /><br />
 
 <h3>2025 Monthly Playlists</h3>
 
-<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/3q7pXwHozPqtioPLkw2eTI?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/0DncGsunAnS218RdcUaHfG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/3q7pXwHozPqtioPLkw2eTI?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/0DncGsunAnS218RdcUaHfG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/5k8lQB1psDEN7GiQ64u5GG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/30UqLIWFv4NnmIwzG0ZuF0?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/46RrmFp9jJtLKoqDkgzsqj?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
