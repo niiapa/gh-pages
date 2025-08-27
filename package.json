@@ -28,7 +28,7 @@
 	},
 	"devDependencies": {
 		"gatsby-codemods": "^4.9.0",
-		"gh-pages": "^5.0.0",
+		"gh-pages": "^6.3.0",
 		"prettier": "^1.18.2"
 	},
 	"keywords": [
@@ -43,7 +43,7 @@
 		"serve": "gatsby serve",
 		"test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
 		"build-and-deploy": "yarn build && node ./scripts/deploy-github.js",
-		"deploy:github": "yarn deploy"
+		"deploy": "node ./scripts/deploy-github.js"
 	},
 	"repository": {
 		"type": "git",
