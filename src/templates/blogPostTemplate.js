@@ -2,11 +2,19 @@ import { graphql } from 'gatsby';
 import React from 'react';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
+import RatRacePauseMenu from '../components/ratRacePauseMenu/ratRacePauseMenu';
+
+// Fun interactive components in blog posts
+const extraComponents = {
+    'ratRace': RatRacePauseMenu,
+}
 
 const BlogPostTemplate = ({ data }) => {
     const { markdownRemark } = data;
     const { frontmatter, html } = markdownRemark;
-    
+    const ExtraComponent = extraComponents[frontmatter?.component] ?? null;
+
+
     return (
         <Layout>
             <Seo title={`${frontmatter.title} | Blog`}/>
@@ -18,6 +26,9 @@ const BlogPostTemplate = ({ data }) => {
                         {frontmatter.formattedDate}
                     </time>
                 </div>
+
+
+                {ExtraComponent ? <ExtraComponent /> : null}
                 
                 <div className='blog-post-content' dangerouslySetInnerHTML={{ __html: html }} />
             </div>
@@ -34,6 +45,7 @@ export const pageQuery = graphql`
                 formattedDate: date(formatString: "DD MMMM YYYY")
                 path
                 title
+                component
             }
         }
     }

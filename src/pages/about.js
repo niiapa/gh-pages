@@ -24,8 +24,7 @@ const About = () => (
                     <Avatar/>
                 </div>
                 
-                <h2>Nii Apa Abbey</h2>
-                <small>Chief Technology Officer @ Chalkboard</small>
+                <h2>Nii Apa</h2>
                 <small>Principal Engineer @ Medtronic</small>
                 <small>LDN | ACC</small>
                 

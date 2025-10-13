@@ -14,8 +14,7 @@ const Index = () => (
             </div>
             
             <p>
-                Hey, <br/>
-                I'm Nii. Nii Apa.
+                Hi 👋🏾
             </p>
         </div>
         

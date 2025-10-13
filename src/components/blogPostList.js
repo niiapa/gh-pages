@@ -17,6 +17,7 @@ const BlogPostList = () => {
                                 path
                                 title
                                 isPinned
+                                component
                             }
                         }
                     }
