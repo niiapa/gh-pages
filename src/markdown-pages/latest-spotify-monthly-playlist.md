@@ -1,21 +1,22 @@
 ---
 path: "/blog/latest-monthly-playlist"
-date: "2025-09-02"
+date: "2025-10-12"
 title: "Latest Monthly Playlist"
 tags: music, updated, monthly, yearly, spotify, playlist
-isPinned: true
+isPinned: false
 note: "Don't forget to set the border-radius of the iframe to 4px to match blog theme border-radius"
 ---
 <blockquote><i>(Almost) Every month since the month of April 2017, I have made these little playlists that capture what I feel...</i></blockquote>
 
 <br />
 
-<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/6gN0JNiBQ13Ds5xvqVB1LM?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/47aHD62SMx7XUBH4X29JNv?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <br /><br /><br />
 
 <h3>2025 Monthly Playlists</h3>
 
+<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/6gN0JNiBQ13Ds5xvqVB1LM?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/3q7pXwHozPqtioPLkw2eTI?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/0DncGsunAnS218RdcUaHfG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/5k8lQB1psDEN7GiQ64u5GG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/30UqLIWFv4NnmIwzG0ZuF0?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
