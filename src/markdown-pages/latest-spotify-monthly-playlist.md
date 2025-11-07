@@ -1,6 +1,6 @@
 ---
 path: "/blog/latest-monthly-playlist"
-date: "2025-10-12"
+date: "2025-11-07"
 title: "Latest Monthly Playlist"
 tags: music, updated, monthly, yearly, spotify, playlist
 isPinned: false
@@ -10,7 +10,7 @@ note: "Don't forget to set the border-radius of the iframe to 4px to match blog 
 
 <br />
 
-<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/47aHD62SMx7XUBH4X29JNv?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/6BPfn7YFut3txKHYZfRJsg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <br /><br /><br />
 
