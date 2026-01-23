@@ -1,6 +1,6 @@
 ---
 path: "/blog/latest-monthly-playlist"
-date: "2025-11-07"
+date: "2026-01-23"
 title: "Latest Monthly Playlist"
 tags: music, updated, monthly, yearly, spotify, playlist
 isPinned: false
@@ -10,13 +10,15 @@ note: "Don't forget to set the border-radius of the iframe to 4px to match blog 
 
 <br />
 
-<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/6BPfn7YFut3txKHYZfRJsg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/6Brxm0Qxg1Z35v6wfembtV?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <br /><br /><br />
 
 <h3>2025 Monthly Playlists</h3>
 
-<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/47aHD62SMx7XUBH4X29JNv?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/7fCMnZXEd424dHg4raqFhW?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/6BPfn7YFut3txKHYZfRJsg?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/47aHD62SMx7XUBH4X29JNv?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/6gN0JNiBQ13Ds5xvqVB1LM?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/3q7pXwHozPqtioPLkw2eTI?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/0DncGsunAnS218RdcUaHfG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/5k8lQB1psDEN7GiQ64u5GG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -42,3 +44,8 @@ note: "Don't forget to set the border-radius of the iframe to 4px to match blog 
 <iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/04L7bPJqrhjB0LivEXe3gx?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/76u0CtZruVPf61ht9QzuOh?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:4px" src="https://open.spotify.com/embed/playlist/3WBIHdEiVtXXifGbvggRtu?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+<h3>2023 and earlier</h3>
+<a href="https://open.spotify.com/user/niiapa?si=9657daa84c6c4687">Visit my profile</a>
+
